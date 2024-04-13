@@ -37,6 +37,7 @@ nav ul li{
     font-weight: bold;
     font-size: 17px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 input{
@@ -87,23 +88,19 @@ input{
     background-color: #717171;
   }
 
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-
   .home1{
-    margin-left: 9px;
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 49px;
+    margin-bottom: 49px;
   }
 
   h2{
-    padding: 10px 10px;
-    font-size: 36px;
+    
+    font-size: 30px;
     font-family: "Geologica", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
@@ -112,8 +109,52 @@ input{
       "slnt" 0,
       "CRSV" 0,
       "SHRP" 0;
-      margin: 0px;
+      margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: -120px;
+  margin-right: auto;
+  color: #252323;
+  letter-spacing: .8rem;
+
   }
 
- 
+  .last{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+ }
+  
+ @media (max-width: 1550px) { 
+
+    nav ul li {
+      list-style: none;
+      padding: 0 4px;
+      font-size: 10px;
+  }
+    
+  
+    .containerHeader {
+      padding: 0 2vw;
+  }
+    
+  header{ 
+    height:122px;
+  }  
+  
+    nav{
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .right{ 
+      flex-direction: column;
+    }
+  
+    .rightBox{
+      display: flex;
+      margin: 12px;
+    }
+  }
   
